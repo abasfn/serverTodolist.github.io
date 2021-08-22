@@ -49,14 +49,14 @@ const ModalEdit = () => {
                                 type="button"
                                 onClick={handelCloseModal}
                             >
-                                <img src='images/icons8-no-entry-64.PNG' />
+                                <img src='images/icons8-no-entry-64.png' />
                             </button>
                             <button
                                 className="focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                 type="button"
                                 onClick={handelEditItem}
                             >
-                                <img src='images/icons8-checkmark-yes-64.PNG' />
+                                <img src='images/icons8-checkmark-yes-64.png' />
                             </button>
                         </div>
                     </div>

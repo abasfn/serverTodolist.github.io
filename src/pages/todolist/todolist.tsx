@@ -35,7 +35,7 @@ const ToDoList = () => {
                 <div className='grid grid-cols-5 m-auto w-4/5 mb-8'>
                     <input onChange={onchangeInput} className='w-full p-4 rounded-md col-span-4 shadow-lg' />
                     <div>
-                        <button onClick={handelAddButton} className='ml-3'><img src='images/icons8-add-48.PNG' /></button>
+                        <button onClick={handelAddButton} className='ml-3'><img src='images/icons8-add-48.png' /></button>
                     </div>
                 </div>
             </div>
@@ -49,8 +49,8 @@ const ToDoList = () => {
                                 {item.complete === false ? <h1 className='ml-3'>{item.title}</h1> : <h1 className='ml-3'><del> {item.title}</del></h1>}
                             </div>
                             <div>
-                                <button onClick={() => handeRemoveList(item)} className='ml-3 w-12'><img src='images/icons8-delete-128.PNG' /></button>
-                                <button onClick={() => handeEditList(item, index)} className='ml-3 w-12'><img src='images/icons8-edit-property-80.PNG' /></button>
+                                <button onClick={() => handeRemoveList(item)} className='ml-3 w-12'><img src='images/icons8-delete-128.png' /></button>
+                                <button onClick={() => handeEditList(item, index)} className='ml-3 w-12'><img src='images/icons8-edit-property-80.png' /></button>
                             </div>
                         </div>
                     )
