@@ -53,8 +53,8 @@ const Server = () => {
         <div className='mx-auto p-4 container'>
             <div className='flex justify-center p-4'>
                 <input value={input} onChange={onchangeInput} className='w-1/2 p-2 rounded-md shadow-lg' />
-                <button onClick={handleAddList} className='ml-3'><img src='images/icons8-add-48.png' /></button>
-                <button onClick={handleSearchList} className='ml-3'><img src='images/icons8-search-50.png' /></button>
+                <button onClick={handleAddList} className='ml-3'><img src='images/Emoticon/icons8-add-48.png' /></button>
+                <button onClick={handleSearchList} className='ml-3'><img src='images/Emoticon/icons8-search-50.png' /></button>
             </div>
             {loading.loading === true && <div className='flex justify-center'>
                 <Loader
@@ -71,7 +71,7 @@ const Server = () => {
                         <div className='bg-white p-5 rounded-md shadow-lg mb-4'>
                             <div className='flex'>
                                 <button onClick={() => handelDeletItem(item)}>
-                                    <img className='float-right' width='10%' src='images/6717904.png' />
+                                    <img className='float-right' width='10%' src='images/Emoticon/6717904.png' />
                                 </button>
                             </div>
                             <h1>USERID : {item.id}</h1>
